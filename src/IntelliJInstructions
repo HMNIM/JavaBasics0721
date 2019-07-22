@@ -1,4 +1,6 @@
 * create IntelliJ workspace
 * configuring to Git from Settings to Version control - Git hub , add + Git hub user
 * create a java project and create a file and add .idea/ and do git ignore
-* create a package and class after completing the program,  commit, go to VCS  - import into version control and share project to github
+* create a package and class after completing the program,  commit, go to VCS  - import into version control and
+   share project to github
+*  If you want to use a new system for existing projects, got to new - project version control - git - url - clone
