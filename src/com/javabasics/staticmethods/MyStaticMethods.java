@@ -2,9 +2,9 @@ package com.javabasics.staticmethods;
 
 public class MyStaticMethods {
 
-    public String name;
+    private String name;
     // create static variable
-    public static String staticName = "Static Name";
+    private static String staticName = "Static Name";
 
      public MyStaticMethods(String name) {
         this.name = name;
