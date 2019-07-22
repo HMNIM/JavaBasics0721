@@ -8,6 +8,7 @@ public class StaticExamples {
 
     public  static void add()
     {
+
         int d = a +b +c;
         System.out.println(d);
     }
