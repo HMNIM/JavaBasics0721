@@ -10,3 +10,4 @@ public class BinarySearchOnArray {
         System.out.println(index);
     }
 }
+
