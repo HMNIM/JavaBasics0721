@@ -15,7 +15,7 @@ public class HashtableEntrySet {
        // Entry object provides getter methods to access key-value objects. entrySet() method returns Set object with Entry values.
         Set<Entry<String, String>> str = myhashmap.entrySet();
         for (Entry<String, String> ent: str
-             ) {
+             ) {//te
             System.out.println(ent.getKey() + " ---> " + ent.getValue() );
         }
         myhashmap.remove("School");
