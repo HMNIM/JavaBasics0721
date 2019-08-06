@@ -1,7 +1,7 @@
 package com.javabasics.multithreadingExamples;
 
 class Sqaure{
-    void printTable(int n){//method not synchronized
+    synchronized void printTable(int n){//method  synchronized
         for(int i=1;i<=5;i++){
             System.out.println(n*i);
             try{
@@ -30,8 +30,7 @@ class MynewThread2 extends Thread{
         t.printTable(100);
     }
 }
-
-    class Test{
+class Test{
     public static void main(String args[]){
         Table obj = new Table();//only one object
         MyThread1 t1=new MyThread1(obj);
